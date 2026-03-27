@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://web.scholed.app",
+      "permanent": true
+    }
+  ]
+}
