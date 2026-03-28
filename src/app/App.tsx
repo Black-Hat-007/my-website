@@ -12,6 +12,7 @@ import { SuccessSection } from "./components/SuccessSection";
 import { StaffSection } from "./components/StaffSection";
 import { AboutSection } from "./components/AboutSection";
 import { Footer } from "./components/Footer";
+import { FaWhatsapp } from "react-icons/fa"; // ✅ ADD THIS
 
 export default function App() {
   return (
@@ -30,6 +31,17 @@ export default function App() {
       <StaffSection />
       <AboutSection />
       <Footer />
+
+      {/* ✅ WhatsApp Floating Button */}
+      <a
+        href="https://wa.me/918547547014"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-green-500 p-4 rounded-full text-white text-2xl shadow-lg hover:bg-green-600 z-50 transition-all duration-300 hover:scale-110"
+      >
+        <FaWhatsapp />
+      </a>
+
     </div>
   );
 }
