@@ -68,7 +68,7 @@ export function Navbar() {
 
           {/* Student Portal button */}
           <a
-            href="https://scholed.app"
+            href="https://web.scholed.app"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-[#20b486] via-[#178160] to-[#0e4e3a] text-white rounded-[8px] px-5 py-2 shadow-md hover:opacity-90 transition-opacity"

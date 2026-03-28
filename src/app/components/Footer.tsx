@@ -101,7 +101,7 @@ export function Footer() {
               <a href="#nios" className="hover:text-[#20b486] transition-colors">Plus Two (NIOS)</a>
               <a href="#sgou" className="hover:text-[#20b486] transition-colors">UG Degree (SGOU)</a>
               <a
-                href="https://scholed.app"
+                href="https://web.scholed.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#20b486] transition-colors"
